@@ -14,7 +14,7 @@ pipeline{
         }
         stage('Compilación de la app'){
             steps{
-                sh 'npm build'
+                sh 'ng build'
             }
         }
     }
