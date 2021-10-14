@@ -24,7 +24,7 @@ pipeline{
         }
         stage('Generación APK'){
             steps{
-                sh 'ng serve'
+                sh 'ng build'
             }
         }
         stage('Pruebas funcionales'){
